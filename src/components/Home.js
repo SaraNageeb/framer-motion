@@ -4,6 +4,7 @@ const Home = () => {
   return (
    
       <div className="containerButton">
+        
         <button><nav><Link to="svgAnimation">SvgAnimation</Link> </nav></button>
         <button><nav><Link to="staggerChildren">StaggerChildren</Link> </nav></button>
         <button><nav><Link to="keyframes">Keyframes</Link> </nav></button>
@@ -13,8 +14,9 @@ const Home = () => {
         <button><nav><Link to="animatePresenceHook">AnimatePresence Hook</Link> </nav></button>
         <button><nav><Link to="LayoutAnimations">LayoutAnimations</Link> </nav></button>
         <button><nav><Link to="sharedLayoutProject/SharedLayoutHome">SharedLayout Project </Link> </nav></button>
-        <button><nav><Link to="">UseCycle Hook</Link> </nav></button>
-        <button><nav><Link to="">creating aModal</Link> </nav></button>
+        <button><nav><Link to="UseCycleHook">UseCycle Hook</Link> </nav></button>
+        <button><nav><Link to="CreatingModal">creating aModal</Link> </nav></button><br/>
+        <p>Matt Perry is known for Framer motion follow him</p>
 
 
         </div>

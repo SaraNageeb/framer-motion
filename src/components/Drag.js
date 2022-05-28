@@ -8,6 +8,12 @@ const Drag = () => {
     const opacity  = useTransform(x, input, output)
   return (
     <div className="container">
+      <p>By manually creating MotionValues you can:
+
+Set and get their state.
+Pass to multiple components to synchronise motion across them.
+Chain MotionValues via the useTransform hook.
+Update visual properties without triggering React's render cycle.</p>
        <motion.h2 drag="x" style={{ x, opacity  }} 
         > 
         Drag

@@ -4,6 +4,7 @@ const Keyframes = () => {
   return (
     <div className=" container">
       <h2>Keyframes</h2>
+      <p> more than one animation at once array of animation</p>
       
       <motion.div
       className="box"

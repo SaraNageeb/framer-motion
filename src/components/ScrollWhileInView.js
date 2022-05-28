@@ -8,6 +8,12 @@ const ScrollWhileInView = () => {
   return (
     <div className="container">
         <h2>ScrollWhileInView</h2>
+        <p>
+        
+    viewport   once  , 
+     true :will happen only once ,  
+    false : will happen every time u scroll,   only first two box are false
+        </p>
         
         <motion.div className="box"
         initial={{ opacity: 0 }}

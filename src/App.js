@@ -7,8 +7,10 @@ import ScrollWhileInView from "./components/ScrollWhileInView";
 import UseViewportScroll from "./components/UseViewportScroll";
 import AnimatePresenceHook from "./components/AnimatePresenceHook";
 import LayoutAnimations from "./components/LayoutAnimations";
-
+import UseCycleHook from "./components/UseCycleHook";
 import SharedLayoutHome from "./components/sharedLayoutProject/SharedLayoutHome";
+import CreatingModal from "./components/CreatingModal";
+
 
 
 
@@ -34,6 +36,8 @@ function App() {
         <Route path="animatePresenceHook" element={<AnimatePresenceHook />} />
         <Route path="LayoutAnimations" element={<LayoutAnimations />} />
         <Route path="sharedLayoutProject/SharedLayoutHome" element={<SharedLayoutHome />} />
+        <Route path="UseCycleHook" element={<UseCycleHook />} />
+        <Route path="CreatingModal" element={<CreatingModal />} />
 
    
     </Routes>

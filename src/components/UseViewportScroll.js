@@ -4,8 +4,12 @@ const UseViewportScroll = () => {
     const { scrollYProgress } = useViewportScroll()
 
   return (
-    <div className=" ">
+    <div className="container">
     <h2>UseViewportScroll Hook</h2>
+    <p>
+      It allows us to control animations based on the scroll position.
+      This hook returns scrollY, scrollX, scrollYProgress and scrollXProgress
+    </p>
    
     <svg className="GoDown" xmlns="http://www.w3.org/2000/svg" width="451" height="437">
     <motion.path

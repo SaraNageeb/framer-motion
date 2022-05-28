@@ -9,6 +9,7 @@ const SharedLayoutHome = () => {
     <div className="  layoutContainer">
         <h1>SharedLayoutHome</h1>
         <p>try deleting AnimateSharedLayout ,then see he result then do it to layout</p>
+        <p> more than one animation share the same space to make everything smooth</p>
 
 <AnimateSharedLayout>
       <motion.ul layout initial={{ borderRadius: 25 }}>

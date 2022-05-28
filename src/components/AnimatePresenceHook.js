@@ -9,6 +9,9 @@ const AnimatePresenceHook = () => {
     <div className=''>
       <h2>AnimatePresence</h2>
       <p>inspect page to see how both elements disaapere from DOM Tree</p>
+      <p>1-used in "mounting" (adding nodes to the DOM), and "unmounting"
+          (removing them from the DOM) elements, 
+        2-Used Alot in Routs</p>
   
    {isToggled &&(
     <motion.div
